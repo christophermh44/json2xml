@@ -30,3 +30,5 @@ The example file will produce this html content:
 ```
 
 I don't know if it can be useful. But why not :)
+
+TODO: set doctype to document.
