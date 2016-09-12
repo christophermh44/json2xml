@@ -1,0 +1,62 @@
+{
+	"document": {
+		"root": "html",
+		"doctype": "html"
+	},
+	"$$contents": {
+		"$$attributes": {
+			"lang": "en"
+		},
+		"head": {
+			"title": "Home | My website",
+			"link": {
+				"$$attributes": {
+					"rel": "stylesheet",
+					"href": "screen.css",
+					"media": "screen"
+				}
+			}
+		},
+		"body": {
+			"$$attributes": {
+				"class": "no-js"
+			},
+			"header": {
+				"div": {
+					"$$attributes": {
+						"id": "logo"
+					},
+					"img": {
+						"$$attributes": {
+							"src": "http://lorempixel.com/600/600",
+							"alt": "Logo"
+						}
+					}
+				},
+				"h1": "My website"
+			},
+			"main": {
+				"section": {
+					"$$attributes": {
+						"class": "container"
+					},
+					"$$contents": "Lorem ipsum dolor sit amet."
+				}
+			},
+			"footer": {
+				"a": {
+					"$$attributes": {
+						"href": "http://example.com/"
+					},
+					"$$contents": "Link example"
+				}
+			},
+			"script": {
+				"$$attributes": {
+					"type": "text/javascript",
+					"src": "app.js"
+				}
+			}
+		}
+	}
+}
